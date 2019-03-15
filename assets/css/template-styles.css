@@ -436,6 +436,7 @@ caption {
     margin-top: 0.5rem;
 }
 
+<<<<<<< HEAD
 /* Disqus Comments */
 #disqus-container {
   text-align: center;
@@ -448,6 +449,8 @@ caption {
   display: none; 
 }
 
+=======
+>>>>>>> Removed disquis and google analytics
 /* Pattern lists */
 .patterns-list {
     list-style: none;
