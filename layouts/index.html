@@ -7,7 +7,7 @@
     <div class="blog-roll">
       <h2>Recent posts</h2>
       <ul class="patterns-list">
-      {{ range first 3 ( .Site.Pages ).ByPublishDate.Reverse }}
+      {{ range first 10 ( .Site.Pages ).ByPublishDate.Reverse }}
         {{ partial "list-item.html" . }}
       {{ end }}
       </ul>
